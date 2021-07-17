@@ -66,7 +66,7 @@ class Linkedlist:
             temp = temp.next
         prev.next = None
 
-
+#the length of the linked list
     def length(self):
         if self.start == None:
             return 0
